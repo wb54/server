@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.server_list_title {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    box-shadow: 0px 4px 8px #dcdcdc;
+    padding: 0px 20px;
+}
+
+.server_list_title span {
+    color: rgba(0, 0, 0, 0.85);
+    color: rgba(0, 0, 0, 0.85);
+    margin-left: 14px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.svg_mark {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.server_tableBox {
+    padding: 0px 20px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.server_table_til {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.server_table_til span {
+    font-size: 16px;
+}
+
+.server_table {
+    border: 1px solid #e9e8e8;
+    padding: 40px 20px;
+}
+
+.server_table_head {}
+
+.server_table_head .server_table_tr {}
+
+.server_table_head .server_table_tr .server_table_th {
+    background-color: #fafafa;
+    border-bottom: 1px solid #f0f0f0;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+}
+
+.server_table_body {
+    display: flex;
+    flex-direction: column;
+}
+
+.server_table_body .server_table_tr {}
+
+.server_table_body .server_table_tr .server_table_td {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.server_table_body .server_table_tr .server_table_td:nth-child(3),
+.server_table_body .server_table_tr .server_table_td:first-child {
+    color: #1890ff;
+}
+
+.server_table_body .server_table_tr .server_table_td:first-child a {
+    color: #42a711;
+    background: #f6ffed;
+    border-color: #b7eb8f;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.server_table_body .server_table_tr .server_table_td:nth-child(2) {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.server_table a {}
+
+.server_table_td,
+.server_table_th {
+    flex: 1;
+}
+
+.server_table_tr {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px solid #dedede;
+}
+
+.ip_span {
+    width: 120px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+a.disable {
+    pointer-events: none;
+    background-color: #909090!important;
+    color: #fff !important;
+    border-color: #757575 !important;
+}
